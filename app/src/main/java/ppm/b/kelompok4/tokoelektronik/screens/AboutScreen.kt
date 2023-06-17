@@ -17,11 +17,7 @@ fun AboutScreen(modifier: Modifier = Modifier) {
     Column(modifier = modifier
         .fillMaxWidth()
         .fillMaxHeight()) {
-        Box(modifier = Modifier.align(Alignment.CenterHorizontally)) {
-            Image(
-                painter = painterResource(id = R.drawable.cloudtechlogo),
-                contentDescription = "logo")
-        }
+
         Column(modifier = Modifier.fillMaxWidth()) {
             Text(
                 text="Created By",
@@ -33,7 +29,7 @@ fun AboutScreen(modifier: Modifier = Modifier) {
                 modifier = Modifier.align(Alignment.CenterHorizontally)
             )
             Text(
-                text = "Muhammad Alwi R",
+                text = "Gigih Dwi Saputra",
                 modifier = Modifier.align(Alignment.CenterHorizontally)
             )
             Text(
@@ -41,11 +37,11 @@ fun AboutScreen(modifier: Modifier = Modifier) {
                 modifier = Modifier.align(Alignment.CenterHorizontally)
             )
             Text(
-                text = "Sulthan Jihad",
+                text = "Muhammad Alwi R",
                 modifier = Modifier.align(Alignment.CenterHorizontally)
             )
             Text(
-                text = "Gigih Dwi Saputra",
+                text = "Sulthan Jihad",
                 modifier = Modifier.align(Alignment.CenterHorizontally)
             )
         }
